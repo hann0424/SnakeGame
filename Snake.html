@@ -1,0 +1,39 @@
+
+<html>
+<head>
+    <title>201910146 YoungHan Choi - Snake Project</title>
+    <link rel="stylesheet" href="Snake.css">
+</head>
+
+
+<body>
+
+     <!-- Audio elements for sound effects -->
+  <audio id="appleSound" src="applesound1.mp3"></audio>
+  <audio id="levelSound" src="levelsound.mp3"></audio>
+  <audio id="hitSound" src="hitsound.mp3"></audio>
+  <audio id="gameStartSound" src="gamestart.mp3"></audio>
+  <audio id="wallSound" src="createwall.mp3"></audio>
+  <audio id="predatorSound" src="predatorsound.mp3"></audio>
+    
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score">Score: 0</span>
+            <span class="high-score">High Score: --</span>
+        </div>
+        <div class="parent">
+            <span class="level">Level: 0</span>
+        </div>
+    </div>
+    <div id="grid_id" class="grid"></div>
+    
+    <div class="buttonGroup">
+        <button onclick="StartGame()"class="start"id="startButton">Start Game</button>
+    </div>
+
+    <script src="HelperLibrary.js"></script>
+    <script src="Snake.js"></script>
+</body>
+</html>
+
+
